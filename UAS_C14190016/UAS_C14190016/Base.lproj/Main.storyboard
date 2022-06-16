@@ -17,14 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin Markets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJ4-6B-NmE">
-                                <rect key="frame" x="0.0" y="54" width="414" height="47"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="47"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tQH-rh-H3n">
-                                <rect key="frame" x="0.0" y="121" width="414" height="741"/>
+                                <rect key="frame" x="0.0" y="131" width="414" height="731"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="coinCell" rowHeight="100" id="Xsv-JS-Tb0" customClass="CoinTableViewCell" customModule="UAS_C14190016" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
@@ -76,22 +77,22 @@
                                                             <rect key="frame" x="187" y="0.0" width="187" height="78"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ect-s0-jO0">
-                                                                    <rect key="frame" x="20" y="10" width="147" height="58"/>
+                                                                    <rect key="frame" x="10" y="10" width="157" height="58"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V6-tl-wxf">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="147" height="19.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="157" height="19.5"/>
                                                                             <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 USD = 15000 IDR" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dco-vs-adc">
-                                                                            <rect key="frame" x="0.0" y="19.5" width="147" height="19"/>
+                                                                            <rect key="frame" x="0.0" y="19.5" width="157" height="19"/>
                                                                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPJ-nc-NSH">
-                                                                            <rect key="frame" x="0.0" y="38.5" width="147" height="19.5"/>
+                                                                            <rect key="frame" x="0.0" y="38.5" width="157" height="19.5"/>
                                                                             <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -101,7 +102,7 @@
                                                             </subviews>
                                                             <constraints>
                                                                 <constraint firstAttribute="bottom" secondItem="Ect-s0-jO0" secondAttribute="bottom" constant="10" id="60N-Ip-r9x"/>
-                                                                <constraint firstItem="Ect-s0-jO0" firstAttribute="leading" secondItem="wsN-f9-MT9" secondAttribute="leading" constant="20" id="7G8-uQ-OQo"/>
+                                                                <constraint firstItem="Ect-s0-jO0" firstAttribute="leading" secondItem="wsN-f9-MT9" secondAttribute="leading" constant="10" id="7G8-uQ-OQo"/>
                                                                 <constraint firstAttribute="trailing" secondItem="Ect-s0-jO0" secondAttribute="trailing" constant="20" id="EVV-6X-9OF"/>
                                                                 <constraint firstItem="Ect-s0-jO0" firstAttribute="top" secondItem="wsN-f9-MT9" secondAttribute="top" constant="10" id="Uaw-T3-ihl"/>
                                                             </constraints>
@@ -118,6 +119,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="9tu-Zy-JJc" secondAttribute="trailing" id="zd8-wm-G0I"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="coinImageView" destination="o7j-IF-ha8" id="s7A-NR-FZV"/>
                                             <outlet property="coinView" destination="9tu-Zy-JJc" id="h3h-tJ-lNy"/>
@@ -134,7 +136,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="bJ4-6B-NmE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Lw3-Fc-aGK"/>
+                            <constraint firstItem="bJ4-6B-NmE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Lw3-Fc-aGK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tQH-rh-H3n" secondAttribute="bottom" id="VQV-vw-Hgj"/>
                             <constraint firstItem="tQH-rh-H3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YPi-HA-z9f"/>
                             <constraint firstItem="bJ4-6B-NmE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a4B-mL-FOu"/>
