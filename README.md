@@ -7,7 +7,6 @@ An Application to find Coin Prices in USD and IDR.
 
 ## Preview
 ![](documentation/image1.png) ![](documentation/image2.png)
-![](documentation/image3.png)
-![](documentation/image4.png)
 
 ## Simulation
+https://user-images.githubusercontent.com/75579330/174161933-e053cbaa-1613-4f54-baa5-f1185b56aa0c.mp4
