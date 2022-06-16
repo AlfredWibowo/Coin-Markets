@@ -1,4 +1,4 @@
-# Coin Market Application
+# Coin Markets Application
 An Application to find Coin Prices in USD and IDR.
 
 ## API
